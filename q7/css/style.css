@@ -12,21 +12,20 @@
   margin: 0 auto;
 }
 
-.box::before{
+.box::before,.box::after{
   position: absolute;
   content: "";
   border: 20px solid transparent;
-  border-top: 20px solid #8f5a0a;
   top: 100%;
   left: 5%;
 }
 
+.box::before{
+  border-top: 20px solid #8f5a0a;
+}
+
 .box::after{
-  position: absolute;
-  content: "";
-  border: 20px solid transparent;
+  
   border-top: 20px solid #fad296;
-  top: 100%;
-  left: 5%;
   margin-top: -7px;
 }
