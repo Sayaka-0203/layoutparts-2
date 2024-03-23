@@ -25,7 +25,6 @@
 }
 
 .box::after{
-  
   border-top: 20px solid #fad296;
   margin-top: -7px;
 }
